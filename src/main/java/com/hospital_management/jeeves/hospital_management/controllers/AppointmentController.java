@@ -33,7 +33,7 @@ public class AppointmentController {
         return null;
     }
 
-    @PutMapping("/{id}")
+    @DeleteMapping("/{id}")
     public Appointment deleteAppointment(@PathVariable Long id){
         System.out.println("delete all Appointments by id");
         return null;
